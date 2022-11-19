@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MainLayout from "../../components/layoutl/MainLayout";
+import { MainLayout } from "../../components/layoutl/MainLayout";
 
 export default function Home() {
   return (
@@ -18,5 +18,4 @@ export default function Home() {
   );
 }
 
-// static generatotion -> la web se genera previamente, antes que la persona haga la solicitud (al momento del bild)
-//
+// tsx -> ayuda a saber el funcionamiento de los componentes (saber que tipo de dato reciben los props)
