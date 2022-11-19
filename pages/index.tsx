@@ -1,18 +1,16 @@
-import Link from "next/link";
-import { MainLayout } from "../components/layoutl/MainLayout";
+import {Button} from '@nextui-org/react'
+import { NextPage } from "next";
 
-export default function Home() {
+const HomePage: NextPage = () => {
   return (
-    <MainLayout>
-      <h1>Home Page</h1>
+    <>
+      <h1>Hola mundo</h1>
+      <Button>click me!</Button>
+      <h2>COCINANDO CON TILIN</h2>
 
-      <h1 className="title">
-        Ir a <Link href="/about">About</Link>
-      </h1>
-
-      <p className="description">
-        Get started by editing <code className="code">pages/index.js</code>
-      </p>
-    </MainLayout>
+    </>
   );
-}
+};
+
+export default HomePage;
+ 
